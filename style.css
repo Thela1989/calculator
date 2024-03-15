@@ -31,13 +31,20 @@
     font-size: 20px;
     color: #e3f9ff;
     cursor: pointer;
-    margin: 10px
+    margin: 10px;
+    
+
 }
 
 form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    background-color: rgba(44, 40, 40, 0.778);
+    border-radius: 10px;
+    border-color: #e3f9ff;
+    border-style:groove;
+   
 
 
 }
