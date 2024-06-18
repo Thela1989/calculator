@@ -23,8 +23,7 @@
   width: 60px;
   height: 60px;
   border-radius: 10px;
-  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
   background: transparent;
   font-size: 20px;
   color: #e3f9ff;
@@ -54,9 +53,13 @@ form input.operator {
   color: #d7d2d5;
 }
 
-@media only screen and (max-device-width: 480px) /* styles for mobile browsers smaller than 480px; (iphone) */ {
+@media only screen and (max-device-width: 360px) /* styles for mobile browsers smaller than 480px; (iphone) */ {
   .container {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+  .calculator form input {
+    width: 30px;
+    height: 30px;
   }
 }
